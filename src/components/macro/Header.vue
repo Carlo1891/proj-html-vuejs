@@ -32,6 +32,8 @@
       </figure>
 
       <div>
+        <i class="fa-solid fa-bars"></i>
+        Category
         <input type="text" placeholder="Search Courses">
         <a href="#" role="button"><i class="fa-solid fa-magnifying-glass p-2"></i></a>
       </div>
@@ -45,7 +47,7 @@
 
       <div>
         <a href="#">Log in</a>
-        <a class="btn btn-danger rounded" href="#" role="button">Sign In</a>
+        <a class="btn btn-danger rounded" href="#" role="button">SIGN UP</a>
       </div>
 
       <div>
