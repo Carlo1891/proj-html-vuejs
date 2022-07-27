@@ -27,4 +27,8 @@
 
 <style lang="scss">
 
+  @import "./assets/styles/variables.scss";
+  @import "~bootstrap/dist/css/bootstrap.css";
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
 </style>
