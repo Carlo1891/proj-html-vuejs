@@ -1,31 +1,31 @@
 <template>
   <main>
-    <div class="pre-jumbo d-flex justify-content-around">
+    <div class="pre-jumbo d-flex justify-content-around p-2 my-3">
 
       <div>
         <ul>
 
-          <li>
+          <li class="mx-4">
             <i class="fa-solid fa-city"></i>
             Business
           </li>
 
-          <li>
+          <li class="mx-4">
             <i class="fa-solid fa-palette"></i>
             Design
           </li>
         
-          <li>
+          <li class="mx-4">
             <i class="fa-solid fa-gear"></i>
             Development
           </li>
         
-          <li>
+          <li class="mx-4">
             <i class="fa-solid fa-face-smile"></i>
             Lifestyle
           </li>
         
-          <li>
+          <li class="mx-4">
             <i class="fa-solid fa-folder-open"></i>
             Office Productivity
           </li>
@@ -36,12 +36,16 @@
 
     <div>
       <figure class="jumbotron d-flex">
-        <h2 class="text-white">
-          Udemy Affiliate Sales
-        </h2>
-        <p>
-          Monetize your audience and attract new costumers with Udemy!
-        </p>
+
+        <div class="jumbo-text">
+          <h2>
+            Udemy Affiliate Sales
+          </h2>
+          <p>
+            Monetize your audience and attract new costumers with Udemy!
+          </p>
+        </div>
+       
 
         <img src="../../../public/img/slide-1.jpg" alt="slide-1" class="img-fluid">
       </figure>
@@ -166,7 +170,12 @@
 
   .pre-jumbo {
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
+    background-color: $bgTopBarMain;
+    color: $bgMainColor;
+  }
+  .jumbo-text{
+    color: white;
   }
 
   div>ul {
