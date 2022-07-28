@@ -51,19 +51,69 @@
       </figure>
     </div>
 
-    <h4>
-      Popular Development Courses
-    </h4>
+    <div>
+      <h4>
+        Popular Development Courses
+      </h4>
 
-    <p>
-      Development >
-    </p>
+      <div class="d-flex">
 
-    <p>
-      The Complete iOS 10 & Swift 3 Developer Courses
-      $199.99
-      $100
-    </p>
+        <div class="cards">
+          <figure>
+            <img src="../../../public/img/895786_7b4b_2-272x161.jpg" alt="tablet" class="img-fluid">
+          </figure>
+
+          <div class="course">
+            <h5>
+              Development >
+            </h5>
+            
+            <p>
+              The Complete iOS 10 & Swift 3 Developer Courses
+            </p>
+
+            <p>
+              $199.99
+            </p>
+
+            <p>
+              $100
+            </p>
+          </div>
+
+          <div class="cards">
+          <figure>
+            <img src="../../../public/img/246154_d8b0_3-272x161.jpg" alt="tablet" class="img-fluid">
+          </figure>
+
+          <div class="course">
+            <h5>
+              Development >
+            </h5>
+            
+            <p>
+              The Complete iOS 10 & Swift 3 Developer Courses
+            </p>
+
+            <p>
+              $199.99
+            </p>
+
+            <p>
+              $100
+            </p>
+          </div>
+
+        </div>
+        
+
+
+      </div>
+    </div>
+
+    </div>
+
+    
 
     <p>
       Web Design for Beginners: Real World Coding in HTML & CSS
